@@ -63,4 +63,12 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(attackDelay);
         canAttack = true;
     }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Asteroid"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
