@@ -360,6 +360,7 @@
 "Assets/Scripts/Asteroid.cs"
 "Assets/Scripts/Bounds.cs"
 "Assets/Scripts/Bullet.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/Spawner.cs"
 -langversion:9.0

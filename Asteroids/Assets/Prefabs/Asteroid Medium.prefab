@@ -124,7 +124,7 @@ Rigidbody:
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 64
@@ -133,7 +133,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 56
   m_CollisionDetection: 0
 --- !u!114 &231717404020785013
 MonoBehaviour:
@@ -149,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   asteroidBitsPrefab: {fileID: 5535582944021371889, guid: e686ff612ee68b84ca117543278b0663, type: 3}
+  splitCount: 2
 --- !u!114 &6692100739332055855
 MonoBehaviour:
   m_ObjectHideFlags: 0
